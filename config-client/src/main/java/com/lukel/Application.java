@@ -18,7 +18,7 @@ package com.lukel;
     @SpringBootApplication
     @RestController
     public class Application  extends SpringBootServletInitializer implements EmbeddedServletContainerCustomizer {
-        @Value("${mysql.server.url}")
+        @Value("${my.message}")
         String bar;
 
         @RequestMapping("/")
